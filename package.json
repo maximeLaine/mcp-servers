@@ -1,0 +1,11 @@
+{
+  "name": "mcp-servers",
+  "private": true,
+  "workspaces": [
+    "servers/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces"
+  }
+}
