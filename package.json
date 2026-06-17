@@ -2,7 +2,8 @@
   "name": "mcp-servers",
   "private": true,
   "workspaces": [
-    "servers/*"
+    "servers/*",
+    "agents"
   ],
   "scripts": {
     "build": "npm run build --workspaces",
